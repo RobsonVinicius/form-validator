@@ -27,7 +27,7 @@ Simple client side form validation. Check required, length, email and password m
 + [Validation - Bootstrap v5.0](https://getbootstrap.com/docs/5.0/forms/validation/)
 + [Form Validation - Angular](https://angular.io/guide/form-validation)
 + [Form Validation](https://formvalidation.io/)
-+ [Como Validar um endereço de email no JavaScript)[https://stackoverflow.com/questions/46155/how-to-validate-an-email-address-in-javascript]
++ [Como Validar um endereço de email no JavaScript](https://stackoverflow.com/questions/46155/how-to-validate-an-email-address-in-javascript)
 
 <br>
 
