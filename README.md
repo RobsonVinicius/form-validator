@@ -9,3 +9,11 @@ Estudos em validação de formulário
 + [Validation - Bootstrap v5.0](https://getbootstrap.com/docs/5.0/forms/validation/)
 + [Form Validation - Angular](https://angular.io/guide/form-validation)
 + [Form Validation](https://formvalidation.io/)
+
+## Fonte Utilizada no Projeto
+
++ [Open Sans](https://fonts.google.com/specimen/Open+Sans?query=open+)
+  + Regular 400
+  + Semi-Bold 600
+  + Semi-Bold Italic
+  + Bold 700
