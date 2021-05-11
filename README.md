@@ -24,10 +24,11 @@ Simple client side form validation. Check required, length, email and password m
 ## Links
 
 + [Form data validation - Mozilla Learn](https://developer.mozilla.org/pt-BR/docs/Learn/Forms/Form_validation)
++ [Como Validar um endereço de email no JavaScript](https://stackoverflow.com/questions/46155/how-to-validate-an-email-address-in-javascript) 
 + [Validation - Bootstrap v5.0](https://getbootstrap.com/docs/5.0/forms/validation/)
 + [Form Validation - Angular](https://angular.io/guide/form-validation)
 + [Form Validation](https://formvalidation.io/)
-+ [Como Validar um endereço de email no JavaScript](https://stackoverflow.com/questions/46155/how-to-validate-an-email-address-in-javascript)
+
 
 <br>
 
