@@ -1,5 +1,5 @@
 const form = document.getElementById('form');
-const username = document.getElementById('username');
+const username = document.getElementById('name');
 const email = document.getElementById('email');
 const password = document.getElementById('password');
 const password2 = document.getElementById('password2');
@@ -25,32 +25,25 @@ function isValidEmail(email) {
   return re.test(String(email).toLowerCase());
 }
 
+// Check required fields
+function checkRequired(inputArr) {
+  inputArr.forEach(function(input) {
+    if(input.value.trim() === '') {
+      showError(input, `${getFieldName(input)} é obrigatório`);
+    } else {
+      showSuccess(input);
+    }
+  });
+}
+
+// Get Fieldname
+function getFieldName(input) {
+  return input.className.charAt(0).toUpperCase() + input.className.slice(1);
+}
+
 // Event Listeners
 form.addEventListener('submit', function(e) {
   e.preventDefault();
-  if(username.value === '') {
-    showError(username, 'Preencher o nome é obrigatório');
-  } else {
-    showSuccess(username);
-  }
-
-  if(email.value === '') {
-    showError(email, 'Preencher o email é obrigatório');
-  } else if (!isValidEmail(email.value)) {
-    showError(email, 'Esse Email não é válido');
-  } else {
-    showSuccess(email);
-  }
   
-  if(password.value === '') {
-    showError(password, 'Criar uma senha é obrigatório');
-  } else {
-    showSuccess(password);
-  }
-   
-  if(password2.value === '') {
-    showError(password2, 'Confirmar a senha é obrigatório');
-  } else {
-    showSuccess(password2);
-  }
+  checkRequired([username, email, password, password2]);  
 });
