@@ -49,4 +49,4 @@ Simple client side form validation. Check required, length, email and password m
 
 ## Preview Project
 
-[form-validator-estudo.netlify.app/](Preview)
+[form-validator-estudo.netlify.app/](form-validator-estudo.netlify.app/)
