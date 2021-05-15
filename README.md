@@ -47,6 +47,11 @@ Simple client side form validation. Check required, length, email and password m
   
 <br>
 
+## Cores Utilizadas
+
+<img src="cores.jpg" alt="cores utilizadas" />
+
+<br>
 ## Preview Project
 
 https://form-validator-estudo.netlify.app/
