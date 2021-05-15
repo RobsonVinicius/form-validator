@@ -45,6 +45,8 @@ Simple client side form validation. Check required, length, email and password m
   + Semi-Bold Italic
   + Bold 700
   
+<br>
+
 ## Preview Project
 
-form-validator-estudo.netlify.app/
+[form-validator-estudo.netlify.app/](Preview)
