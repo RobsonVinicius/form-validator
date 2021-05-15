@@ -4,7 +4,7 @@ Estudos em validação de formulário
 
 <br>
 
-<img src="preview.png" alt="Preview Visual do Projeto" height="500" align="center" />
+<img src="preview.png" alt="Preview Visual do Projeto" align="center" />
 
 
 <br>
