@@ -3,14 +3,16 @@
 }
 
 :root {
-  --body-color: #cde4fc;
-  --light: #fff;
+  --body-color: #333b45;
+  --container: #1f2933;
   --shadow: rgba(0, 0, 0, 0.2);
-  --label-color-text: #777;
+  --text-color: #fff;
   --border-color: #f0f0f0;
   --success: #2ecc71;
   --error: #e74c3c; 
   --btn-color: #3498db;
+  --btn-color-hover: #20608b;
+  --btn-hover-text: #90c5f1;
 }
 
 body {
@@ -23,7 +25,7 @@ body {
 }
 
 .container {
-  background-color: var(--light);
+  background-color: var(--container);
   border-radius: 5px;
   box-shadow: 0 2px 10px var(--shadow);
   width: 400px;
@@ -32,6 +34,7 @@ body {
 h2 {
   text-align: center;
   margin: 0 0 20px;
+  color: var(--text-color);
 }
 
 .form {
@@ -40,14 +43,14 @@ h2 {
 
 .form-control {
   margin-bottom: 10px;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
   position: relative;
 }
 
 .form-control label {
   display: block;
   margin-bottom: 5px;
-  color: var(--label-color-text);
+  color: var(--text-color);
 }
 
 .form-control input {
@@ -89,10 +92,17 @@ h2 {
   background-color: var(--btn-color);
   border: 2px solid var(--btn-color);
   border-radius: 4px;
-  color: var(--light);
+  color: var(--text-color);
   display: block;
-  font-size: 16px;
+  font-size: 18px;
   padding: 10px;
-  margin-top: 20px;
+  margin: 30px 0 10px 0px;
   width: 100%;
+  transition: 500ms ease-out;
+}
+
+.form button:hover {
+  background: var(--btn-color-hover);
+  border: 2px solid var(--btn-color-hover);
+  color: var(--btn-hover-text);
 }
