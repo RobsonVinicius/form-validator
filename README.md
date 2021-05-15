@@ -4,6 +4,11 @@ Estudos em validação de formulário
 
 <br>
 
+<img src="preview.png" alt="Preview Visual do Projeto" height="500" align="center" />
+
+
+<br>
+
 ## Intro Project
 
 Simple client side form validation. Check required, length, email and password match
