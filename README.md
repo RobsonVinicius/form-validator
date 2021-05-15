@@ -1,6 +1,6 @@
 # Form Validator 
 
-Estudos em validação de formulário
+Estudos em validações de formulários
 
 <br>
 
